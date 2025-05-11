@@ -30,7 +30,7 @@ Dataset Sources: specified within respective folders/files.
 
 Technologies Used: python, pandas, matplotlib, scikit-learn, hdbscan, geopandas, contextily, shapely, plotly, seaborn, xgboost
 
-Installation: copy and run the code in Jupyter Notebooks or other Python editor of choice
+Installation: copy and run the code in Jupyter Notebooks or other Python editor of choice. Keep data files in the same folder.
 
 
 
