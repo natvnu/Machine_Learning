@@ -19,7 +19,7 @@ Installation: copy and run the code in Jupyter Notebooks or other Python editor 
 
 ![Regularization_Linear_regression_coefficients](https://raw.githubusercontent.com/natvnu/Machine_Learning/0e4932d49f493e5f633fd70bb80ccc3c65409168/Supervised%20Machine%20Learning%20-%20Regression/4_Regularization_Linear_regression_coefficients.png)
 
-![Regularization_Linear_regression_linear_ridge_lasso_vs_ideal](Regression/4https://raw.githubusercontent.com/natvnu/Machine_Learning/0e4932d49f493e5f633fd70bb80ccc3c65409168/Supervised%20Machine%20Learning%20-%20Regression/4_Regularization_Linear_regression_linear_ridge_lasso_vs_ideal.png)
+![Regularization_Linear_regression_linear_ridge_lasso_vs_ideal](https://raw.githubusercontent.com/natvnu/Machine_Learning/0e4932d49f493e5f633fd70bb80ccc3c65409168/Supervised%20Machine%20Learning%20-%20Regression/4_Regularization_Linear_regression_linear_ridge_lasso_vs_ideal.png)
 
 ![Random_Forest_Predictions_vs_Actual_and_Xboost_prediction_vs_actual](https://raw.githubusercontent.com/natvnu/Machine_Learning/0e4932d49f493e5f633fd70bb80ccc3c65409168/Supervised%20Machine%20Learning%20-%20Regression/Random_Forest_Predictions_vs_Actual_and_Xboost_prediction_vs_actual.png)
 
