@@ -15,7 +15,7 @@ Technologies Used: python, pandas, matplotlib, scikit-learn, plotly, seaborn, xg
 
 Installation: copy and run the code in Jupyter Notebooks or other Python editor of choice. Keep dataset files in the same folder.
 
-![Data_wrangling_bins](https://github.com/natvnu/Data_wrangling_EDA_Model_Building_and_Refinement/blob/main/bins.png?raw=true)
+![Supervised Machine Learning - Regression/3_Feature_Importances_in_Random_Forest_Regression](https://github.com/natvnu/Machine_Learning/commit/0e4932d49f493e5f633fd70bb80ccc3c65409168#diff-d72537ca55db2c96f1b3d23d27e4e443f58f294ac7710538eff9d97c3e14c72a)
 
 ![EDA_regplot_used_cars](https://github.com/natvnu/Data_wrangling_EDA_Model_Building_and_Refinement/blob/main/regplot.png?raw=true)
 
