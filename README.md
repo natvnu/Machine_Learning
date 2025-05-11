@@ -24,14 +24,11 @@ The repository contains folders:
      b. K-Means Clustering for customer segmentation
      c. HDBSCAN for Australian cities clustering
      d. DBSCAN and HDBSCAN for clustering cultural and art facilities in Canada
-     e.
+     e. Principal Component Analysis (PCA) for feature space dimensionality reduction  
      
-     
-
-
 Dataset Sources: specified within respective folders/files.
 
-Technologies Used: Python, Pandas, Matplotlib, Sklearn, 
+Technologies Used: python, pandas, matplotlib, scikit-learn, hdbscan, geopandas, contextily, shapely, plotly, seaborn, xgboost
 
 Installation: copy and run the code in Jupyter Notebooks or other Python editor of choice
 
