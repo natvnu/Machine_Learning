@@ -1,5 +1,4 @@
-# Machine_Learning
-Supervised machine learning algorithms - Regression
+# Supervised machine learning algorithms - Regression
 
 The repository contains files:
   1. RegressionTrees_TaxiTip_New.py - Regression Trees to predict taxi tip (and dataset yellow_tripdata.csv)
@@ -16,7 +15,13 @@ Technologies Used: python, pandas, matplotlib, scikit-learn, plotly, seaborn, xg
 
 Installation: copy and run the code in Jupyter Notebooks or other Python editor of choice. Keep dataset files in the same folder.
 
+![Data_wrangling_bins](https://github.com/natvnu/Data_wrangling_EDA_Model_Building_and_Refinement/blob/main/bins.png?raw=true)
 
+![EDA_regplot_used_cars](https://github.com/natvnu/Data_wrangling_EDA_Model_Building_and_Refinement/blob/main/regplot.png?raw=true)
+
+![EDA_boxplot_used_cars](https://github.com/natvnu/Data_wrangling_EDA_Model_Building_and_Refinement/blob/main/boxplot.png?raw=true)
+
+![EDA_heatmap_used_cars](https://github.com/natvnu/Data_wrangling_EDA_Model_Building_and_Refinement/blob/main/heatmap.png?raw=true)
 
 
 
