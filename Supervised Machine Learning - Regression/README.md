@@ -15,13 +15,13 @@ Technologies Used: python, pandas, matplotlib, scikit-learn, plotly, seaborn, xg
 
 Installation: copy and run the code in Jupyter Notebooks or other Python editor of choice. Keep dataset files in the same folder.
 
-![Supervised Machine Learning - Regression/3_Feature_Importances_in_Random_Forest_Regression](https://github.com/natvnu/Machine_Learning/commit/0e4932d49f493e5f633fd70bb80ccc3c65409168#diff-d72537ca55db2c96f1b3d23d27e4e443f58f294ac7710538eff9d97c3e14c72a)
+![Feature_Importances_in_Random_Forest_Regression](https://raw.githubusercontent.com/natvnu/Machine_Learning/0e4932d49f493e5f633fd70bb80ccc3c65409168/Supervised%20Machine%20Learning%20-%20Regression/3_Feature_Importances_in_Random_Forest_Regression.png)
 
-![EDA_regplot_used_cars](https://github.com/natvnu/Data_wrangling_EDA_Model_Building_and_Refinement/blob/main/regplot.png?raw=true)
+![Regularization_Linear_regression_coefficients](https://raw.githubusercontent.com/natvnu/Machine_Learning/0e4932d49f493e5f633fd70bb80ccc3c65409168/Supervised%20Machine%20Learning%20-%20Regression/4_Regularization_Linear_regression_coefficients.png)
 
-![EDA_boxplot_used_cars](https://github.com/natvnu/Data_wrangling_EDA_Model_Building_and_Refinement/blob/main/boxplot.png?raw=true)
+![Regularization_Linear_regression_linear_ridge_lasso_vs_ideal](Regression/4https://raw.githubusercontent.com/natvnu/Machine_Learning/0e4932d49f493e5f633fd70bb80ccc3c65409168/Supervised%20Machine%20Learning%20-%20Regression/4_Regularization_Linear_regression_linear_ridge_lasso_vs_ideal.png)
 
-![EDA_heatmap_used_cars](https://github.com/natvnu/Data_wrangling_EDA_Model_Building_and_Refinement/blob/main/heatmap.png?raw=true)
+![Random_Forest_Predictions_vs_Actual_and_Xboost_prediction_vs_actual](https://raw.githubusercontent.com/natvnu/Machine_Learning/0e4932d49f493e5f633fd70bb80ccc3c65409168/Supervised%20Machine%20Learning%20-%20Regression/Random_Forest_Predictions_vs_Actual_and_Xboost_prediction_vs_actual.png)
 
 
 
