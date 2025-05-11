@@ -5,9 +5,7 @@ The repository contains files:
   2. Decision_trees.py - #Comparation of Random Forest and XGBoost modeling performance in predicting house prices in California
   3. Decission_Tre_vs_SVM_card_fraud.py - #evaluation of the random forest regression models using various evaluation metrics and extraction of feature importances
   4. KNN_Classificator_Telecom_CustSegments.py - #evaluation and comparation of the performance of three regularization techniques for linear regression
-  5. Pipelines folder with files:
-       5.1.RAIN_PREDICTION_Final_project.py
-       5.2.Pipelines_Feature_importances_Titanic.py
+  5. Pipelines folder with files:RAIN_PREDICTION_Final_project.py and Pipelines_Feature_importances_Titanic.py which 
      
 Dataset Sources: 
   1. yellow_tripdata.csv - The dataset is a subset of the publicly available TLC Dataset (all rights reserved by Taxi & Limousine Commission (TLC), City of New York)
