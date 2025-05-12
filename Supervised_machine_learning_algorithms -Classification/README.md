@@ -25,17 +25,15 @@ Technologies Used: python, pandas, matplotlib, scikit-learn, plotly, seaborn
 
 Installation: copy and run the code in Jupyter Notebooks or other Python editor of choice. Keep dataset files in the same folder.
 
-![Feature_Importances_in_Random_Forest_Regression](https://raw.githubusercontent.com/natvnu/Machine_Learning/0e4932d49f493e5f633fd70bb80ccc3c65409168/Supervised%20Machine%20Learning%20-%20Regression/3_Feature_Importances_in_Random_Forest_Regression.png)
+![Decision Tree](https://github.com/natvnu/Machine_Learning/blob/main/Supervised_machine_learning_algorithms%20-Classification/DecisionTree.png?raw=true)
 
-![Regularization_Linear_regression_coefficients](https://raw.githubusercontent.com/natvnu/Machine_Learning/0e4932d49f493e5f633fd70bb80ccc3c65409168/Supervised%20Machine%20Learning%20-%20Regression/4_Regularization_Linear_regression_coefficients.png)
+![KNN and SVM Confusion Matrix Heatmap](https://github.com/natvnu/Machine_Learning/blob/main/Supervised_machine_learning_algorithms%20-Classification/KNNandSVMConfusionMatrixHeatmap.png?raw=true)
 
-![Regularization_Linear_regression_linear_ridge_lasso_vs_ideal](https://raw.githubusercontent.com/natvnu/Machine_Learning/0e4932d49f493e5f633fd70bb80ccc3c65409168/Supervised%20Machine%20Learning%20-%20Regression/4_Regularization_Linear_regression_linear_ridge_lasso_vs_ideal.png)
+![Feature Coefficients In Logistic Regression - Customer Churn Prediction](https://github.com/natvnu/Machine_Learning/blob/main/Supervised_machine_learning_algorithms%20-Classification/FeatureCoefficientsInLogisticRegressionChurnModel.png?raw=true)
 
-![Random_Forest_Predictions_vs_Actual_and_Xboost_prediction_vs_actual](https://raw.githubusercontent.com/natvnu/Machine_Learning/0e4932d49f493e5f633fd70bb80ccc3c65409168/Supervised%20Machine%20Learning%20-%20Regression/Random_Forest_Predictions_vs_Actual_and_Xboost_prediction_vs_actual.png)
+![Feature Importances Predicting Rain in Australia](https://github.com/natvnu/Machine_Learning/blob/main/Supervised_machine_learning_algorithms%20-Classification/FeatureImportancesPredictingRaininAustralia.png?raw=true)
 
-![Regularization_Linear_regression_linear_ridge_lasso_vs_ideal](https://raw.githubusercontent.com/natvnu/Machine_Learning/0e4932d49f493e5f633fd70bb80ccc3c65409168/Supervised%20Machine%20Learning%20-%20Regression/4_Regularization_Linear_regression_linear_ridge_lasso_vs_ideal.png)
-
-![Random_Forest_Predictions_vs_Actual_and_Xboost_prediction_vs_actual](https://raw.githubusercontent.com/natvnu/Machine_Learning/0e4932d49f493e5f633fd70bb80ccc3c65409168/Supervised%20Machine%20Learning%20-%20Regression/Random_Forest_Predictions_vs_Actual_and_Xboost_prediction_vs_actual.png)
+![KNN CLassification Report](https://github.com/natvnu/Machine_Learning/blob/main/Supervised_machine_learning_algorithms%20-Classification/KNNCLassificationReport.png?raw=true)
 
 
 
