@@ -4,7 +4,7 @@ Supervised and unsupervised machine learning algorithms
 The repository contains folders:
 
   1. Supervised Machine Learning - Regression illustrating the use of:
-     **a. Regression Trees to predict taxi tip,
+     -a. Regression Trees to predict taxi tip,
      b. Random Forest Regression and XGBoost to predict the price of the house
      c. Regularization in Linear Regression for Feature Engineering
      d. and evaluation metrics for Radnom Forest Regression
