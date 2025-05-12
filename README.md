@@ -16,9 +16,9 @@ The repository contains folders:
      - using Decision Tree as a multiclass predictor on which drug might be the most appropriate for a future patient
      - Logistic Regression to predict customer churn
      - evaluation metrics for binary classifiers
-     - The folder also contains subfolder Pipelines that explores the use of Grid Search and Cross Validation to predict:
-     - -the possibility of rain in Australia or
-     - -the survival rate of passangers on Titanic.
+     - The folder also contains subfolder Pipelines that explores the use of Grid Search and Cross Validation to predict 
+     - the possibility of rain in Australia or
+     - the survival rate of passangers on Titanic.
      
   3. Unspervised Machine Learning which explores:
      - K-Means Clustering on generated dataset
