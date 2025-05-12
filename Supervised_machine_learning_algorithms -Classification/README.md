@@ -1,19 +1,25 @@
 # Supervised machine learning algorithms - Classification
 
 The repository contains files:
-  1. LogisticRegressionNew.py - #Regression Trees to predict taxi tip (and dataset yellow_tripdata.csv)
-  2. Decision_trees.py - #Comparation of Random Forest and XGBoost modeling performance in predicting house prices in California
-  3. Decission_Tre_vs_SVM_card_fraud.py - #evaluation of the random forest regression models using various evaluation metrics and extraction of feature importances
-  4. KNN_Classificator_Telecom_CustSegments.py - #evaluation and comparation of the performance of three regularization techniques for linear regression
-  5. RAIN_PREDICTION_Final_project.py (Pipeline Folder)
-  6. Pipelines_Feature_importances_Titanic.py (Pipeline Folder)
-     
+
+- LogisticRegressionNew.py - Logistic Regression to predict customer churn
+- Decision_trees.py - using Decision Tree as a multiclass predictor on which drug might be the most appropriate for a future patient
+- Decission_Tre_vs_SVM_card_fraud.py - comparing Support Vector Machine to Decision Tree efficiency in credit card fraud detection
+- KNN_Classificator_Telecom_CustSegments.py - using KNN to classify Telecom company customers
+- Evaluation_of_binary_classificators.py - evaluation metrics for binary classifiers
+- RAIN_PREDICTION_Final_project.py (Pipelines Folder) - use of Pipelines and Grid Search to predict the possibility of rain in Australia
+- RAIN_PREDICTION_Final_project_cities_clustering.py - HDBSCAN clustering of cities based on longitude and latitude
+- Pipelines_Feature_importances_Titanic.py (Pipelines Folder) -use of Pipelines and Grid Search to predict the survival rate of passangers on Titanic
+
 Dataset Sources: 
-  1. yellow_tripdata.csv - The dataset is a subset of the publicly available TLC Dataset (all rights reserved by Taxi & Limousine Commission (TLC), City of New York)
-  2. and
-  3.  "California housing dataset” which can be fetched from internet using scikit-learn
-  4. generated dataset
-  5. 
+
+  - ChurnData.cvs - historical customer dataset
+  - drug200.cvs - dataset provided by IBM Developer Skills Network
+  - Kaggle Dataset available at https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+  - teleCust1000t - dataset provided by IBM Developer Skills Network
+  - the copy of UCI ML Breast Cancer Wisconsin (Diagnostic) dataset available to load from sklearn or from the following link:https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic
+  - Kaggle Dataset available at https://www.kaggle.com/datasets/jsphyg/weather-dataset-rattle-package/ and AUCities.csv
+  - Seaborn Dataset available at https://github.com/kailasdumane/seaborn-datasets/blob/master/titanic.csv
 
 Technologies Used: python, pandas, matplotlib, scikit-learn, plotly, seaborn
 
