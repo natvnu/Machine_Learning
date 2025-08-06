@@ -8,7 +8,7 @@ The repository contains folders:
      - Regression Trees to predict taxi tip,
      - Random Forest Regression and XGBoost to predict the price of the house
      - Regularization in Linear Regression for Feature Engineering
-     - 0MultiLinearRegression_KDEPlot__GridSearchUsingRidgeRegression_ModelRefinement.py - Multiple Linear Regression, KDE plot, Grid Search for Insurance Charges Prediction
+     - Multiple Linear Regression, KDE plot, Grid Search for Insurance Charges Prediction
      - and evaluation metrics for Radnom Forest Regression
      
   3. Supervised Machine Learning - Classification with examples of different classifiers applied on real - life problems, such as:
