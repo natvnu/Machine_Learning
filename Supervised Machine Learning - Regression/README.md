@@ -5,11 +5,13 @@ The repository contains files:
   2. RandomForestRegression_vs_XGBoost_models.py - Comparation of Random Forest and XGBoost modeling performance in predicting house prices in California
   3. Evaluation_random_forest_regression.py - evaluation of the random forest regression models using various evaluation metrics and extraction of feature importances
   4. Regularization_Linear_regression.py - evaluation and comparation of the performance of three regularization techniques for linear regression
-     
+  5. 0MultiLinearRegression_KDEPlot__GridSearchUsingRidgeRegression_ModelRefinement.py - Multiple Linear Regression, KDE plot, Grid Search for Insurance Charges Prediction
+   
 Dataset Sources: 
   1. yellow_tripdata.csv - The dataset is a subset of the publicly available TLC Dataset (all rights reserved by Taxi & Limousine Commission (TLC), City of New York)
   2. and 3. "California housing dataset” which can be fetched from internet using scikit-learn
-  4. generated dataset 
+  4. generated dataset
+  5. insurance.csv - provided by Skills Network Labs
 
 Technologies Used: python, pandas, matplotlib, scikit-learn, plotly, seaborn, xgboost
 
