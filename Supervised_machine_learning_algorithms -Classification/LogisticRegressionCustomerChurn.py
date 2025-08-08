@@ -58,4 +58,11 @@ plt.xlabel('Predicted Probability of Churn')
 plt.ylabel('Count')
 plt.show()
 
+#we can print out confusion matrix, using yhat, not yhat_prob
+confusion_matrix(y_test, yhat)
+#according to confusion matrix we have:
+#25 TN(correctly predicted as negative)
+#0 FP(incorrectly predicted as positive)
+#15 TP(correctly predicted as positive)
+#0 FN(incorrectly predicted as negative)
 
