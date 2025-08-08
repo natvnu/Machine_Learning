@@ -1,4 +1,3 @@
-#Using a telecommunications dataset for predicting customer churn
 
 #Using a telecommunications dataset for predicting customer churn
 '''
@@ -11,7 +10,7 @@ import numpy as numpyp
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import log_loss
+from sklearn.metrics import log_loss, confusion_matrix, classification_report
 import matplotlib.pyplot as plt
 %matplotlib inline 
 
