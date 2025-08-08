@@ -53,7 +53,7 @@ print('Log loss is: ', log_loss(y_test, yhat_prob)) #0.7780756315443422, which i
 #going back to features and choosing 'tenure', 'age', 'address', 'income', 'ed', 'employ',  'callcard' will reduce log loss to 0.02065304337548963
 
 #to display distribution of predicted probability of customer churn
-plt.hist(y_pred_logr[:, 1], bins=20)  # Show distribution of churn probabilities
+plt.hist(yhat_prob[:, 1], bins=20)  # Show distribution of churn probabilities
 plt.xlabel('Predicted Probability of Churn')
 plt.ylabel('Count')
 plt.show()
