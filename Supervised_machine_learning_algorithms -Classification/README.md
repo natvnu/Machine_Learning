@@ -15,6 +15,7 @@ The repository contains files:
 Dataset Sources: 
 
   - ChurnData.cvs - historical customer dataset
+  - "Obesity Risk Prediction" data set publically available on UCI Library under the CCA 4.0 license (https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition)
   - drug200.cvs - dataset provided by IBM Developer Skills Network
   - Kaggle Dataset available at https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
   - teleCust1000t - dataset provided by IBM Developer Skills Network
