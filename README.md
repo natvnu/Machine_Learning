@@ -14,8 +14,8 @@ The repository contains folders:
   3. Supervised Machine Learning - Classification with examples of different classifiers applied on real - life problems, such as:
      - using KNN to classify Telecom company customers
      - comparing Support Vector Machine to Decision Tree efficiency in credit card fraud detection
-     - using Decision Tree as multiclass predictor on which drug might be the most appropriate for a future patient
-     - using Logistic Regression as multiclass predictor on chronic obesity
+     -  Decision Tree as multiclass predictor on which drug might be the most appropriate for a future patient
+     - Logistic Regression as multiclass predictor of chronic obesity in patients
      - Logistic Regression to predict customer churn
      - evaluation metrics for binary classifiers
      - The folder also contains subfolder Pipelines that explores the use of Grid Search and Cross Validation to predict 
