@@ -5,7 +5,7 @@ The repository contains files:
 - LogisticRegressionCustomerChurn.py - Logistic Regression to predict customer churn
 - 0MulticlassLogisticRegressionDiabetes.py - Multiclass Prediction (Logistic Regression) to predict obesity
 - Decision_trees.py - using Decision Tree as a multiclass predictor on which drug might be the most appropriate for a future patient
-- Decission_Tre_vs_SVM_card_fraud.py - comparing Support Vector Machine to Decision Tree efficiency in credit card fraud detection
+- Decission_Tree_vs_SVM_card_fraud.py - comparing Support Vector Machine to Decision Tree efficiency in credit card fraud detection
 - KNN_Classificator_Telecom_CustSegments.py - using KNN to classify Telecom company customers
 - Evaluation_of_binary_classificators.py - evaluation metrics for binary classifiers
 - RAIN_PREDICTION_Final_project.py (Pipelines Folder) - use of Pipelines and Grid Search to predict the possibility of rain in Australia
