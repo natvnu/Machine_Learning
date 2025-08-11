@@ -1,14 +1,19 @@
 
-#a telecommunications provider has segmented its customer base by service usage patterns, 
-#categorizing the customers into four groups. It is a classification problem. 
-
-#1.import libraries
+#K-Nearest neighbors to classify data
+#A telecommunications provider has segmented its customer base by service usage patterns, 
+#categorizing the customers into four groups:
+#Basic Service
+#E-Service
+#Plus Service
+#Total Service
+#The objective is to build a classifier to predict the service category for unknown cases. 
+'''
 !pip install numpy==2.2.0
 !pip install pandas==2.2.3
 !pip install scikit-learn==1.6.0
 !pip install matplotlib==3.9.3
 !pip install seaborn==0.13.2
-
+'''
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -19,42 +24,79 @@ from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score
 %matplotlib inline
-
-#2. read dataset into df
 df = pd.read_csv('https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-ML0101EN-SkillsNetwork/labs/Module%203/data/teleCust1000t.csv')
 df.head()
-abs(df.corr()).sort_values(by='custcat', ascending= False) #ed, tenure, income, employ have some correlation
+df.isnull().sum()
+df.dtypes
+df['custcat'].value_counts()
 
-#3. develop KNN model
-#define x and y (features and target var)
-x=df.drop('custcat',axis=1)
-y=df['custcat']
-#standardize data
-x_norm = StandardScaler().fit_transform(x)
-#train-test split
-x_train,x_test,y_train,y_test=train_test_split(x_norm,y,test_size=0.2, random_state=4)
+
+#illustrate correlation of features with target var
+corr_df = df.corr()['custcat'].drop('custcat').sort_values()
 '''
-#create KNN classsifier object
-k=3 #number of neighbors we will analyze
-knn=KNeighborsClassifier(n_neighbors=k)
-#train the model
-knn.fit(x_train, y_train)
-#make prediction
-yhat_knn=knn.predict(x_test)
-#evaluate the accuracy of the model
-print("KNN model (k=3) accuracy: ", accuracy_score(y_test, yhat_knn)) #0.315
+plt.figure(figsize=(10, 8))
+corr_df.plot(kind='barh')
 '''
-#choice of k affects the model, so we will choose the optimal k
-ks=500
-# 2 arrays to keep the scores
-acc_scores=np.zeros((ks-1))
-for n in range(1,ks):
-    #train model and predict
-    neigh=KNeighborsClassifier(n_neighbors=n)
-    neigh.fit(x_train,y_train)
-    yhat_neigh=neigh.predict(x_test)
-    acc_scores[n-1] = accuracy_score(y_test, yhat_neigh)
-acc_scores #array([0.3  , 0.29 , 0.315, 0.32 , 0.315, 0.31 , 0.335, 0.325, 0.34 ]), k=9 is the optimal k
-print("The best accuracy was ", acc_scores.max(), "with k =", acc_scores.argmax()+1) #the best accuracy was  0.34 with k = 9
-#we can increase k, to see how the model accuracy is changing. The most we will get is 0.41 with k=38
-#this is still not very good, so we can try removing weakly correlated features
+
+'''
+#prepare x and y
+x = df.drop('custcat',axis=1)
+y = df['custcat']
+#Scaling of data is important for the KNN model, it transforms the data to have mean=0 and standard dev=1
+#KNN makes predictions based on the distance between data points (samples) 
+#we want all features on the same scale (with no feature dominating due to its larger range).
+#This helps KNN make better decisions based on the actual relationships between features, not just on the magnitude of their values.
+#scale the features
+x=StandardScaler().fit_transform(x)
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=4)
+
+#develop KNN model
+k = 3
+#Train Model and Predict  
+knn_classifier = KNeighborsClassifier(n_neighbors=k)
+knn_model = knn_classifier.fit(x_train,y_train)
+y_pred=knn_model.predict(x_test)
+print("Test set Accuracy: ", accuracy_score(y_test, y_pred)) #0.315
+
+#plot the model accuracy to identify the model with the most suited value of k.
+Ks = 100
+acc = np.zeros((Ks))
+for n in range(1,Ks+1):
+    #Train Model and Predict  
+    knn_model_n = KNeighborsClassifier(n_neighbors = n).fit(x_train,y_train)
+    y_pred = knn_model_n.predict(x_test)
+    acc[n-1] = accuracy_score(y_test, y_pred)
+    print('Accuracy: ', acc[n-1], 'for k: ', (n)) #Accuracy:  0.41 for k:  38
+
+#illustrate accuracy in relation to k
+plt.plot(range(1,Ks+1),acc,'g')
+plt.ylabel('Model Accuracy')
+plt.xlabel('Number of Neighbors (K)')
+plt.tight_layout()
+plt.show()# highest accuracy is achieved with k between 35 and 45, more than 0.4, but not clearn which value from the graph - we can see it is 0.41 for k=38 from the above loop 
+'''
+# train the model again with selected features and with k between 35 and 45
+x = df[['tenure','ed', 'income', 'employ', 'marital','reside']]
+y = df['custcat']
+x=StandardScaler().fit_transform(x)
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=4)
+
+#plot the model accuracy to identify the model with the most suited value of k.
+Ks = 45
+acc = np.zeros((Ks))
+for n in range(35,Ks+1):
+    #Train Model and Predict  
+    knn_model_n = KNeighborsClassifier(n_neighbors = n).fit(x_train,y_train)
+    y_pred = knn_model_n.predict(x_test)
+    acc[n-1] = accuracy_score(y_test, y_pred)
+    print('Accuracy: ', acc[n-1], 'for k: ', (n))
+
+
+plt.plot(range(1, Ks+1), acc, 'g') 
+plt.xlim(32, 47)  # Force x-axis to display 32 to 47
+plt.xlabel('K Values')
+plt.ylabel('Accuracy')
+plt.xticks(range(32, 48)) #set x ticks to start from 32
+plt.show() #the highest accuracy is for k=41, acc=0.385
+#regardless of features we select, the model does not perform optimally.
+#what is more, it performs better with a full set of features, wherefor k=38, acc=0.41 
