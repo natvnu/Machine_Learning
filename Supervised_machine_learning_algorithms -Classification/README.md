@@ -6,7 +6,7 @@ The repository contains files:
 - 0MulticlassLogisticRegressionDiabetes.py - Multiclass Prediction (Logistic Regression) to predict obesity
 - Decision_trees.py - using Decision Tree as a multiclass predictor on which drug might be the most appropriate for a future patient
 - 0DecTree_SVM_FradulentTransactions.py - comparing Support Vector Machine to Decision Tree efficiency in credit card fraud detection
-- KNN_Classificator_Telecom_CustSegments.py - using KNN to classify Telecom company customers
+- 0KNN_telecom_cust_segmentation.py - using KNN to classify Telecom company customers
 - Evaluation_of_binary_classificators.py - evaluation metrics for binary classifiers
 - RAIN_PREDICTION_Final_project.py (Pipelines Folder) - use of Pipelines and Grid Search to predict the possibility of rain in Australia
 - RAIN_PREDICTION_Final_project_cities_clustering.py - HDBSCAN clustering of cities based on longitude and latitude
