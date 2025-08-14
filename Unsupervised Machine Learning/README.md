@@ -26,6 +26,12 @@ Installation: copy and run the code in Jupyter Notebooks or other Python editor 
 ![blobs, clusters and silhouette plot](https://github.com/natvnu/Machine_Learning/blob/main/Unsupervised%20Machine%20Learning/blobs,%20clusters%20and%20silhouette%20plot.png?raw=true
 )
 
+![Customer segmentation](https://github.com/natvnu/Machine_Learning/blob/main/Unsupervised%20Machine%20Learning/kmeans.png
+)
+
+![Customer segmentation](https://github.com/natvnu/Machine_Learning/blob/main/Unsupervised%20Machine%20Learning/kmeans1.png
+)
+
 ![Unclustered blobs and the clustering results for k = 3, 4, and 5](https://github.com/natvnu/Machine_Learning/blob/main/Unsupervised%20Machine%20Learning/Unclustered%20blobs%20and%20the%20clustering%20results%20for%20k%20=%203,%204,%20and%205.png?raw=true)
 
 ![Museums clusters in Canada](https://github.com/natvnu/Machine_Learning/blob/main/Unsupervised%20Machine%20Learning/Museums%20clusters%20in%20Canada.png?raw=true)
