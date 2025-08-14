@@ -4,7 +4,8 @@ The repository contains files:
 
 - PCA _in_use.py - Principal Component Analysis (PCA) for feature space dimensionality reduction 
 - Evaluation_of_kmeans.py - evaluation of the clustering model: inertia value, silhouette scores and the Davies-Bouldin index
-- Kmeans_generated_data_and_customer_segmentation.py - K-Means Clustering on generated dataset and on real dataset used for customer segmentation
+- Kmeans_generated_data.py - K-Means Clustering on generated dataset
+- 0KMeans_CustomerSegmentation - KMeans Clustering for Customer Segmentation
 - DBSCAN_and_HDBSCAN.py - DBSCAN and HDBSCAN for clustering cultural and art facilities in Canada (and a zipfile with the .tiff map of Canada)
 
 Dataset Sources: 
