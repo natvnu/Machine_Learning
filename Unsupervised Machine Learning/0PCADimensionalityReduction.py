@@ -1,7 +1,6 @@
 #PCA for feature space dimensionality reduction
 #Use PCA to project the four-dimensional Iris feature data set down onto a two-dimensional feature space.
 
-This will have the added benefit of enabling you to visualize some of the most important structures in the dataset.
 
 #1. install and import libraries
 import pandas as pd
@@ -43,6 +42,6 @@ pca_df.plot(kind='bar', legend=False)
 plt.ylabel('Explained Variance Ratio')
 plt.xlabel('Principal Components')
 plt.title('Explained Variance by Principal Components')
-
+plt.xticks(rotation=0) 
 plt.show()
 
